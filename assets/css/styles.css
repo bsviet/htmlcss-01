@@ -163,7 +163,28 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 41px;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.clients .images a:first-child {
+    padding-left: 10px;
+}
+
+.clients .images .client3 {
+    width: 157px;
+    height: 40px;
 }
 
 /* ======== Guides ======== */
